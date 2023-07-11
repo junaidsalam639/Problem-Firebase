@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar .left ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.navbar .left ul li{
+    margin: 10px 10px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.navbar .right button{
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
